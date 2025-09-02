@@ -1,74 +1,22 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #333;
-    text-align: center;
-}
-
-header {
-    padding: 20px;
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.card {
-    border: 1px solid #333;
-    width: 30%;
-    min-width: 250px;
-    color: black;
-    background-color: #9e9797;
-    position: relative;
-}
-
-.card-title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
-}
-
-.chicken {
-    background-color: #f2b5b0;
-}
-
-.beef {
-    background-color: #d9534f;
-    color: white;
-}
-
-.sushi {
-    background-color: #d2b48c;
-}
-
-.card p {
-    padding: 50px 15px 15px 15px;
-    text-align: left;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .card {
-        width: 45%;
+ body {
+      font-family: Arial, sans-serif;
     }
-}
-
-@media (max-width: 500px) {
-    .card {
-        width: 90%;
+    header {
+      background-color: #ddd;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
     }
-}
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .card {
+      background-color: #eaeaea;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .navbar-toggler {
+      border: none;
+    }
